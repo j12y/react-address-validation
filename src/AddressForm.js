@@ -3,8 +3,8 @@ import AddressSuggest from './AddressSuggest';
 import AddressInput from './AddressInput';
 import axios from 'axios';
 
-const APP_ID_HERE = 'gNo7nYvTlSggn2mlziMf';
-const APP_CODE_HERE = '_Uc-SyQAOj5KfJvkr_ft1w';
+const APP_ID_HERE = 'APP_ID_HERE';
+const APP_CODE_HERE = 'APP_CODE_HERE';
 
 class AddressForm extends Component {
   constructor(props) {
