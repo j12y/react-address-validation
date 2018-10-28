@@ -90,7 +90,7 @@ class AddressForm extends Component {
     }
 
     if (this.state.locationId.length > 0) {
-      params['locationId'] = this.state.locationId
+      params['locationId'] = this.state.locationId;
     } else {
       params['searchtext'] = this.state.address.street
         + this.state.address.city
